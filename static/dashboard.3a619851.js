@@ -1,0 +1,1 @@
+import{G as t}from"./dict.bf842918.js";const i=()=>t("/api/earn/info"),o=(e,n)=>t(`/api/earn/daily-statistic?start=${e}&end=${n}`),s=(e,n,a)=>t(`/api/network/device-networks?page=${e}&limit=${n}&active=${a}`),c=()=>t("/api/network/info");export{o as a,s as d,i as e,c as n};
