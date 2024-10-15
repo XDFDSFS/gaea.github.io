@@ -1,36 +1,57 @@
 <!DOCTYPE html>
-<html >
-<head><meta charset="utf-8">
-<title>Gaea</title>
-<meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-<meta name="description" content="">
-<meta name="format-detection" content="telephone=no">
-<meta name="viewport" content="user-scalable=yes">
-<meta name="naive-ui-style">
-<meta name="vueuc-style">
-<link rel="icon" type="image/x-icon" href="/favicon.ico?v=1"><link rel="modulepreload" as="script" crossorigin href="/static/entry.fd3f1e90.js"><link rel="preload" as="style" href="/static/entry.2b64dd0c.css"><link rel="prefetch" as="style" href="/static/missions.fc7f76c0.css"><link rel="prefetch" as="style" href="/static/el-button.2e70eb9e.css"><link rel="prefetch" as="style" href="/static/el-input.c43a23be.css"><link rel="prefetch" as="style" href="/static/index.2e1d2fc8.css"><link rel="prefetch" as="style" href="/static/taskConnect.01089624.css"><link rel="prefetch" as="style" href="/static/el-loading.7fcbe426.css"><link rel="prefetch" as="script" crossorigin href="/static/missions.73bb6d41.js"><link rel="prefetch" as="script" crossorigin href="/static/Btn.vuevuetypescriptsetuptruelang.2ee057a3.js"><link rel="prefetch" as="script" crossorigin href="/static/el-button.f4261407.js"><link rel="prefetch" as="script" crossorigin href="/static/use-form-item.dc2e6d51.js"><link rel="prefetch" as="script" crossorigin href="/static/el-input.02296272.js"><link rel="prefetch" as="script" crossorigin href="/static/index.02046318.js"><link rel="prefetch" as="script" crossorigin href="/static/commonjsHelpers.c32fecef.js"><link rel="prefetch" as="script" crossorigin href="/static/-initCloneObject.e9d915eb.js"><link rel="prefetch" as="script" crossorigin href="/static/taskConnect.2f50bb39.js"><link rel="prefetch" as="script" crossorigin href="/static/focus-trap.4a590bbc.js"><link rel="prefetch" as="script" crossorigin href="/static/validator.de7b8815.js"><link rel="prefetch" as="script" crossorigin href="/static/client-only.bab1b30b.js"><link rel="prefetch" as="script" crossorigin href="/static/dict.d5728e61.js"><link rel="prefetch" as="script" crossorigin href="/static/utils.d8b42fb8.js"><link rel="prefetch" as="script" crossorigin href="/static/bi.dd890321.js"><link rel="prefetch" as="script" crossorigin href="/static/referral.99a87f34.js"><link rel="prefetch" as="script" crossorigin href="/static/throttle.a1e10328.js"><link rel="prefetch" as="script" crossorigin href="/static/el-loading.d292f9c3.js"><link rel="prefetch" as="script" crossorigin href="/static/dashboard.3bbf6b00.js"><link rel="prefetch" as="script" crossorigin href="/static/router-login.d254aab1.js"><link rel="prefetch" as="style" href="/static/index.db42d207.css"><link rel="prefetch" as="style" href="/static/white-discord.bcc58336.css"><link rel="prefetch" as="style" href="/static/el-checkbox.3ca32550.css"><link rel="prefetch" as="style" href="/static/passwords.987ef89c.css"><link rel="prefetch" as="script" crossorigin href="/static/index.24f0b525.js"><link rel="prefetch" as="script" crossorigin href="/static/white-discord.2be18c65.js"><link rel="prefetch" as="script" crossorigin href="/static/debounce.f0ebf63c.js"><link rel="prefetch" as="script" crossorigin href="/static/logo.8b9a7319.js"><link rel="prefetch" as="script" crossorigin href="/static/el-checkbox.5ba35eff.js"><link rel="prefetch" as="script" crossorigin href="/static/isEqual.3081ff54.js"><link rel="prefetch" as="script" crossorigin href="/static/passwords.0c085804.js"><link rel="stylesheet" href="/static/entry.2b64dd0c.css"></head>
-<body ><div id="__nuxt"><style>
-  body,html{
-    padding: 0 !important;
-    margin: 0 !important;
-  }
-    .content{
-      width: 100%;
-      height: 100vh;
-      background-color: black;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0 !important;
-      margin: 0 !important;
-    }
-    .content img{
-      width: 100px;
-      height: 100px;
-    }
-    </style>
-    
-    <div class="content">
-      <img src="/images/dashboard/on_connection.gif" alt="">
-      </div></div><script type="application/json" id="__NUXT_DATA__" data-ssr="false">[{"_errors":1,"serverRendered":2,"data":3,"state":4},{},false,{},{}]</script><script>window.__NUXT__={};window.__NUXT__.config={public:{api:{baseUrl:""},persistedState:{storage:"cookies",debug:false,cookieOptions:{}}},app:{baseURL:"/",buildAssetsDir:"/static/",cdnURL:""}}</script><script type="module" src="/static/entry.fd3f1e90.js" crossorigin></script></body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaea</title>
+    <link rel="icon" href="./favicon.ico">
+</head>
+<body>
+    <div class="index">
+        <div class="logo"><img src="./logo.png"/></div>
+        <div class="content">
+            <img src="./rotating _ring.gif"/>
+            <div>The system is currently undergoing maintenance.</div>
+        </div>
+    </div>
+</body>
 </html>
+<style>
+body,html{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+img {
+  -webkit-user-drag: none;
+  /* For WebKit browsers such as Chrome and Safari */
+  user-drag: none;
+  /* For other browsers */
+}
+
+.index{
+    width: calc(100% - 40px) ;
+    height: calc(100vh - 40px);
+    background: black;
+    padding: 20px;
+    position: relative;
+} 
+.logo{
+    width: 160px;
+    height: 56px;
+  
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+</style>
