@@ -119,61 +119,44 @@
       </div>
       <span class="progress_txt" id="progressTextInside">0%</span>
   </div>
+
   <script>
-    const totalBoxes = 25;  
+    let progress = 0;
+    const totalBoxes = 25;
     const progressContainer = document.getElementById('progressContainer');
     const progressTextInside = document.getElementById('progressTextInside');
-
-    let progress = 0;  
-
-    function updateProgress(progressValue) {
-      const progressPercentage = Math.floor(progressValue * 100);  
-      progressTextInside.textContent = `${progressPercentage}%`;
-
-      const boxesToAdd = Math.floor(progressValue * totalBoxes) - progress;
-      for (let i = 0; i <= boxesToAdd; i++) {
+  
+    let isStuck = false;
+  
+    function updateProgress() {
+      if (progress < totalBoxes) {
         const newBox = document.createElement('div');
         newBox.classList.add('box');
         progressContainer.appendChild(newBox);
+  
+        const progressPercentage = Math.floor((progress / totalBoxes) * 100);
+        progressTextInside.textContent = `${progressPercentage}%`;
+  
+        if (progress === Math.floor(totalBoxes / 2) && !isStuck) {
+          isStuck = true;
+          setTimeout(() => {
+            progress++;
+            isStuck = false; 
+          }, 1000);   
+        } else {
+          progress++;
+        }
       }
-
-      progress = Math.floor(progressValue * totalBoxes);
     }
-
-    function loadResource(url) {
-      return fetch(url)
-        .then(response => {
-          if (!response.ok) {
-          }
-
-          const totalBytes = parseInt(response.headers.get('Content-Length'), 10);
-          let loadedBytes = 0;
-
-          const reader = response.body.getReader();
-          const decoder = new TextDecoder();
-          let done = false;
-
-          reader.read().then(function processChunk({ done, value }) {
-            if (done) {
-              updateProgress(1);   
-              return;
-            }
-
-            loadedBytes += value.length;
-            const progressValue = loadedBytes / totalBytes;
-
-            updateProgress(progressValue);
-
-            reader.read().then(processChunk);
-          });
-        })
-        .catch(error => {
-          console.error(error);
-          progressTextInside.textContent = '0';
-        });
-    }
-
-    loadResource('https://app.gaea.la');   
+  
+    const intervalId = setInterval(() => {
+      updateProgress();
+      if (progress >= totalBoxes) {
+        const progressPercentage = 99;
+        progressTextInside.textContent = `${progressPercentage}%`;
+        clearInterval(intervalId);
+      }
+    }, 200);
   </script>
 
 </body>
