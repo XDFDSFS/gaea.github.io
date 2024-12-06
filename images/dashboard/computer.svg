@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="96" viewBox="0 0 96 96" fill="none">
+<rect x="38" y="64" width="19.999996185302734" height="17.99999237060547" stroke="rgba(46, 46, 46, 1.00)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" >
+</rect>
+<path   fill="rgba(46, 46, 46, 1.00)"  d="M11 15.25L84.9999 15.25C85.9664 15.25 86.7499 16.0335 86.7499 17L86.7499 62.9999C86.7499 63.9664 85.9664 64.7499 84.9999 64.7499L11 64.7499C10.0335 64.7499 9.25 63.9664 9.25 62.9999L9.25 17C9.25 16.0335 10.0335 15.25 11 15.25ZM11 16.75C10.8619 16.75 10.75 16.8619 10.75 17L10.75 62.9999C10.75 63.138 10.8619 63.2499 11 63.2499L84.9999 63.2499C85.138 63.2499 85.2499 63.138 85.2499 62.9999L85.2499 17C85.2499 16.8619 85.138 16.75 84.9999 16.75L11 16.75Z">
+</path>
+<path    stroke="rgba(46, 46, 46, 1.00)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"  d="M44 54L52 54">
+</path>
+<path    stroke="rgba(46, 46, 46, 1.00)" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"  d="M28 82L67.9999 82">
+</path>
+</svg>
