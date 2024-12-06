@@ -1,1 +1,0 @@
-import{az as n,f as a,aj as t}from"./entry.8e1d7da9.js";const u=n((r,e)=>{console.log(e.query.token,"from");const o=a();if(e.query.token&&o.setToken(e.query.token),o.getToken){if(r.path==="/")return t("/dashboard")}else return t("/login")});export{u as default};
