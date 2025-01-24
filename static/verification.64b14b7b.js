@@ -1,1 +1,0 @@
-const a=(s,t,e)=>{const r=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;if(!t||r.test(t))return e();e(new Error("Please enter a valid email address!"))},n=s=>{const t=/"transactionHash":"([^"]+)"/,e=s.match(t);return e&&e[1]?e[1]:null};export{n as a,a as c};
