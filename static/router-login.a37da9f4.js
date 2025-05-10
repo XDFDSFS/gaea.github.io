@@ -1,1 +1,0 @@
-import{a4 as a,a1 as o}from"./entry.fafafeab.js";import{u as n}from"./user.379abf3b.js";const d=a((r,s)=>{const t=n(),e=document.querySelector(".body-container");if(e&&e.scrollTo({top:0}),t.getToken){if(r.path==="/")return o("/dashboard")}else return o("/login")});export{d as default};
