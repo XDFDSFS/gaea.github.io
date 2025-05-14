@@ -1,1 +1,0 @@
-import{bw as s,j as a,bt as e}from"./entry.bcc32ba5.js";const u=s((r,o)=>{const n=a(),t=document.querySelector(".body-container");if(t&&t.scrollTo({top:0}),!o.path.startsWith("/ticket"))if(n.getToken){if(r.path==="/")return e("/dashboard")}else return e("/login")});export{u as default};
