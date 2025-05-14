@@ -1,0 +1,1 @@
+import{aB as r}from"./entry.cd3a9a0b.js";const a=()=>r("/api/earn/info"),t=()=>r("/api/earn/daily-statistic"),e=()=>r("/api/network/online"),o=()=>r("/api/network/country"),i=()=>r("/api/reward/era");export{o as a,a as b,t as e,e as n,i as r};
