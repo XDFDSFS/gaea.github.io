@@ -1,1 +1,0 @@
-import{_ as e}from"./plugin-vueexport-helper.c27b6911.js";import{c as t,o as c}from"./entry.3e1b8b15.js";const o={},r={class:"text-[#EBEBEB]"};function s(n,_){return c(),t("div",r)}const i=e(o,[["render",s]]);export{i as default};
