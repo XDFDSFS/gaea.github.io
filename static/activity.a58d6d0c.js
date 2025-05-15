@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vueexport-helper.c27b6911.js";import{c as e,o as c}from"./entry.0e56a333.js";const o={},r={class:"text-[red]"};function s(_,n){return c(),e("div",r,"活动代码")}const f=t(o,[["render",s]]);export{f as default};
