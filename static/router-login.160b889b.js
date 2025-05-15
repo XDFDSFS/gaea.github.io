@@ -1,0 +1,1 @@
+import{bw as n,j as s,N as o}from"./entry.635b8735.js";const u=n((r,a)=>{const t=s(),e=document.querySelector(".body-container");if(e&&e.scrollTo({top:0}),t.getToken){if(r.path==="/")return o("/dashboard")}else return o("/login")});export{u as default};
