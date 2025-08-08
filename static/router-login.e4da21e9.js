@@ -1,0 +1,1 @@
+import{bx as a,j as i,O as t}from"./entry.8011a6d3.js";const u=a((o,r)=>{const n=i(),e=document.querySelector(".body-container");if(e&&e.scrollTo({top:0}),!r.path.startsWith("/emotionalCheckIn/ticket"))if(n.getToken){if(o.path==="/")return t("/dashboard")}else return t("/login")});export{u as default};
