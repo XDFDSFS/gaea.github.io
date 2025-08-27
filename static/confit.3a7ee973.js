@@ -1,0 +1,1 @@
+const s=async r=>{try{const t=await(r==null?void 0:r.validate());return Promise.resolve(t)}catch(t){const e=document.getElementsByClassName("is-error");throw e.length>0&&e[0].scrollIntoView({block:"center",behavior:"smooth"}),t}};export{s as f};

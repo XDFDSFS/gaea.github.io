@@ -1,0 +1,1 @@
+let e=null;const i=(t,o=500,l=!1)=>{if(e!==null&&clearTimeout(e),l){const n=!e;e=setTimeout(function(){e=null},o),n&&typeof t=="function"&&t()}else e=setTimeout(function(){typeof t=="function"&&t()},o)};export{i as d};
