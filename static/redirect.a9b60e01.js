@@ -1,0 +1,1 @@
+import{bM as o,j as a,O as i}from"./entry.9bfc7abf.js";import{j as n}from"./user.eb5325e5.js";const c=o((s,e)=>{const t=a();if(e.query.token){t.setToken(e.query.token);const r=t.getInvitationCode;return e.query.type==="bind"&&r&&n({referral_code:r}),i(`/${e.query.path}`)}});export{c as default};
