@@ -1,0 +1,1 @@
+import{aE as e,aF as r}from"./entry.412d5e9c.js";const s=t=>e(`/api/ticket/generate?level=${t}`),c=()=>e("/api/ticket/info"),n=t=>r("/api/ticket/transfer",t),o=(t,i)=>e(`/api/ticket/buyer-history?page=${t}&limit=${i}`),k=()=>e("/api/ticket/list");export{n as a,c as b,s as c,o as d,k as t};
