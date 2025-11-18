@@ -1,0 +1,1 @@
+import{bs as s,f as i,C as t}from"./entry.a710864e.js";const u=s((r,o)=>{const n=i(),e=document.querySelector(".body-container");if(e&&e.scrollTo({top:0}),!o.path.startsWith("/trainingTickets"))if(n.getToken){if(r.path==="/")return t("/dashboard")}else return t("/login")});export{u as default};
