@@ -1,1 +1,0 @@
-import{aU as i,E as s,N as a}from"./entry.f59b3f4e.js";const u=i((r,e)=>{const o=s(),t=document.querySelector(".body-container");if(t&&t.scrollTo({top:0}),!e.path.startsWith("/trainingTickets")){if(r.path==="/dashboard"||r.path==="/dashboard/")return a("/");if(o.getUserInfo.role===0&&(r.path==="/audioVisual"||r.path==="/audioVisual/"))return a("/")}});export{u as default};
