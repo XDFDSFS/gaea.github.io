@@ -1,0 +1,1 @@
+import{aS as t,z as a,L as o}from"./entry.dbadbfbc.js";const r=t((t,r)=>{a();const s=document.querySelector(".body-container");if(s&&s.scrollTo({top:0}),!r.path.startsWith("/trainingTickets"))return t.path.startsWith("/dashboard")?o("/"):void 0});export{r as default};
