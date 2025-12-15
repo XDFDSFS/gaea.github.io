@@ -1,0 +1,1 @@
+import{aS as t,z as o,L as a}from"./entry.a22467de.js";const n=t(((t,n)=>{o();const r=document.querySelector(".body-container");if(r&&r.scrollTo({top:0}),!n.path.startsWith("/trainingTickets"))return t.path.startsWith("/dashboard")?a("/"):void 0}));export{n as default};
