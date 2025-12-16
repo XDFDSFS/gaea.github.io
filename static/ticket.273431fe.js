@@ -1,1 +1,0 @@
-import{ao as t,G as a}from"./entry.dbadbfbc.js";const i=t=>a(`/api/ticket/generate?level=${t}`),e=()=>a("/api/ticket/info"),s=a=>t("/api/ticket/transfer",a),c=(t,i)=>a(`/api/ticket/buyer-history?page=${t}&limit=${i}`),p=()=>a("/api/ticket/list"),r=(a,i)=>t(`/api/ticket/activity/${a}`,{recaptcha_token:i});export{r as a,s as b,e as c,i as d,c as e,p as t};

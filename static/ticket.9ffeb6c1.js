@@ -1,1 +1,0 @@
-import{ap as r,G as e}from"./entry.eec9d568.js";const s=t=>e(`/api/ticket/generate?level=${t}`),c=()=>e("/api/ticket/info"),n=t=>r("/api/ticket/transfer",t),o=(t,i)=>e(`/api/ticket/buyer-history?page=${t}&limit=${i}`),k=()=>e("/api/ticket/list"),p=(t,i)=>r(`/api/ticket/activity/${t}`,{recaptcha_token:i});export{p as a,n as b,c,s as d,o as e,k as t};
