@@ -1,1 +1,0 @@
-import{aO as a,z as o,M as i}from"./entry.0d1f150d.js";const n=a((r,e)=>{o();const t=document.querySelector(".body-container");if(t&&t.scrollTo({top:0}),!e.path.startsWith("/trainingTickets")&&r.path.startsWith("/dashboard"))return i("/")});export{n as default};
